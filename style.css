@@ -1,0 +1,63 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(63, 10, 63);
+    box-shadow: 10px 10px 10px rgb(255, 2, 213);
+    color: white;
+}
+
+.note{
+    font-size: 18px;
+    font-weight: bold;
+    color: plum;
+}
+
+.div_speed{
+    float: left;
+}
+
+.div_speed_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed{
+    font-size: 25px;
+    margin: 15px;
+    background-color: blueviolet;
+}
+
+.div_volume{
+    float: right;
+}
+
+.div_volume_img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume{
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+    margin: 15px;
+}
+
+.play_button{
+    background-color: rgb(237, 166, 255);
+    color: darkorchid;
+    font-size: large;
+}
+
+canvas {
+    border: 4px solid cyan;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(196, 2, 255);
+}
